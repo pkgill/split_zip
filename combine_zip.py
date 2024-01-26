@@ -1,6 +1,7 @@
 import os
 
 def join_files(start_part_path):
+
     """Joins files split by the split_file script."""
     # Extract the base file name
     base_file_name = start_part_path.rsplit('_part_', 1)[0]
